@@ -83,6 +83,9 @@ body{
 }
 
 @media(max-width: 970px){
+    .cabecalho{
+        height: auto;
+    }
     .configuracao__itens{
         width: 25%;
     }
@@ -102,33 +105,69 @@ body{
     width: 35%;
     }
     .navegacao__icones{
-        font-size: 0.81rem;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.3rem;
     }
     .letra__anuncio{
-        font-size: 0.71rem;
-        min-height: cal(0.72rem * 2);    
+        font-size: 1rem;
+        min-height: cal(1.2rem * 2);    
     }
     .letra__anuncio__preco{
-        font-size: 0.68rem;
+        font-size: 1.2rem;
     }
-
 }
 
-@media(max-width: 754px)
+@media(max-width: 550px)
 {
     .configuracao__itens{
     width: 35%;
     }
     .navegacao__icones{
-        font-size: 0.54rem;
+        font-size: 1rem;
         padding: 0.5rem 1rem;
     }
     .letra__anuncio{
-        font-size: 0.23rem;
+        font-size: 0.8rem;
         min-height: cal(0.72rem * 2);    
     }
     .letra__anuncio__preco{
-        font-size: 0.45rem;
+        font-size: 1rem;
     }
+}
 
+@media(max-width: 495px)
+{
+    .configuracao__itens{
+    width: 35%;
+    }
+    .navegacao__icones{
+        font-size: 0.9rem;
+        padding: 0.3rem 0.8rem;
+    }
+    .letra__anuncio{
+        font-size: 0.75rem;
+        min-height: cal(0.72rem * 2);    
+    }
+    .letra__anuncio__preco{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 390px)
+{
+    .configuracao__itens{
+    width: 35%;
+    }
+    .navegacao__icones{
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
+    .letra__anuncio{
+        font-size: 0.6rem;
+        min-height: cal(0.5rem * 2);
+        line-height: 0.61rem;   
+    }
+    .letra__anuncio__preco{
+        font-size: 0.8rem;
+    }
 }

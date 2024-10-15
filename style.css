@@ -81,3 +81,54 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
+@media(max-width: 970px){
+    .configuracao__itens{
+        width: 25%;
+    }
+    .letra__anuncio{
+        font-size: 0.92rem;
+        min-height: cal(1rem * 2);    
+    }
+    .letra__anuncio__preco{
+        font-size: 0.88rem;
+    }
+
+}
+
+@media(max-width: 754px)
+{
+    .configuracao__itens{
+    width: 35%;
+    }
+    .navegacao__icones{
+        font-size: 0.81rem;
+    }
+    .letra__anuncio{
+        font-size: 0.71rem;
+        min-height: cal(0.72rem * 2);    
+    }
+    .letra__anuncio__preco{
+        font-size: 0.68rem;
+    }
+
+}
+
+@media(max-width: 754px)
+{
+    .configuracao__itens{
+    width: 35%;
+    }
+    .navegacao__icones{
+        font-size: 0.54rem;
+        padding: 0.5rem 1rem;
+    }
+    .letra__anuncio{
+        font-size: 0.23rem;
+        min-height: cal(0.72rem * 2);    
+    }
+    .letra__anuncio__preco{
+        font-size: 0.45rem;
+    }
+
+}

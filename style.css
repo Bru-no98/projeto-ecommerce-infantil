@@ -162,8 +162,8 @@ body{
     }
     .letra__anuncio{
         font-size: 0.6rem;
-        min-height: 2px;
-        line-height: 1px;   
+        min-height: calc(0.8rem * 3);
+        line-height: 0.8rem;  
     }
     .letra__anuncio__preco{
         font-size: 0.8rem;

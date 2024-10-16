@@ -142,8 +142,9 @@ body{
         padding: 0.3rem 0.8rem;
     }
     .letra__anuncio{
-        font-size: 0.75rem;
-        min-height: cal(0.72rem * 2);    
+        font-size: 0.8rem;
+        min-height: calc(0.9rem * 3);
+        line-height: 0.9rem;    
     }
     .letra__anuncio__preco{
         font-size: 0.9rem;
@@ -161,8 +162,8 @@ body{
     }
     .letra__anuncio{
         font-size: 0.6rem;
-        min-height: cal(0.5rem * 2);
-        line-height: 0.61rem;   
+        min-height: 2px;
+        line-height: 1px;   
     }
     .letra__anuncio__preco{
         font-size: 0.8rem;
